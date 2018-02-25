@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:id="@+id/cv"
+    android:background="?android:selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/gambar_air"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:src="@drawable/aqua" />
+    
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp">
+
+        <TextView
+            android:id="@+id/daftarItem_air"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="13dp"
+            android:text="Aqua"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/daftarItem_deskripsi"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_alignLeft="@+id/daftarItem_air"
+            android:layout_alignStart="@+id/daftarItem_air"
+            android:layout_below="@+id/daftarItem_air"
+            android:text="AQUA diproduksi di Indonesia sejak tahun 1973"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
